@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: black;
+}
+.container{
+    content: "";
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/908077b4-cf0a-43c3-b2c9-435fb990299b/7d5fd507-5575-42f8-912d-14afd6cedc28/IN-en-20220829-popsignuptwoweeks-perspective_alpha_website_medium.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+    
+}
+.container .navbar{
+    height: 100px;
+    display: flex;
+    float: left;
+}
+.container .navbar .left img{
+    height: 100px;
+    position: absolute;
+}
+.container .navbar .right{
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+.container .navbar .right{
+
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="left">
+                <img src="https://th.bing.com/th/id/R.05c96bba4090acafe115aad47e66572d?rik=ejgwaTp6m0Dv6g&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f05%2fNetflix-Logo.png&ehk=gJbypm3nuRFxW%2fGn3WbaXOcTVq6kNgynGml%2fdXD79fM%3d&risl=&pid=ImgRaw&r=0" alt="">
+            </div>
+        </nav>
+    </div>
+    <div class="right">
+        <select name="language" id="language">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+        </select>
+        <button><a href="#">Sign In</a></button>
+    </div>
+
+    <center><h1>Unlimited movies, TV</h1>
+        <h1>shows and more.</h1>
+        <h2>Watch anywhere. Cancel anytime.</h2><br>
+        <h3>Ready to watch? Enter your email to create or restart your membership.</h3></center>
+</body>
+</html>
