@@ -1,0 +1,23 @@
+a:visited{
+color: green;
+}
+a:hover{
+    color: yellow;
+}
+a:link{
+    color: red;
+}
+a:active{
+    color: black;
+}
+.b{
+  height: 300px;
+  width: 300px;
+  background-color: aqua;  
+}
+.b{
+    overflow: hidden;
+}
+.b:hover{
+    overflow:scroll ;
+}

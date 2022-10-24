@@ -1,0 +1,109 @@
+.concord-img-gradient{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    font-size: 16px;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #fff;
+    letter-spacing: 0!important;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+  
+}
+.netflix-logo{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    direction: ltr;
+    font-size: 16px;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    fill: #e50914;
+    line-height: normal;
+    letter-spacing: 0!important;
+
+}
+.our-story-card-title{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0!important;
+    line-height: 1.1;
+    margin: 0 auto;
+    max-width: 640px;
+    font-size: 3.125rem;  
+}
+.our-story-card-subtitle{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0!important;
+    font-weight: 400;
+    max-width: 640px;
+    margin: 1rem auto;
+    font-size: 1.625rem; 
+}
+.email-form-title{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0!important;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 0 10%;  
+}
+.nfTextField{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    list-style: none;
+    unicode-bidi: isolate;
+    letter-spacing: 0!important;
+    font: inherit;
+    margin: 0;
+    line-height: normal;
+    appearance: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    box-shadow: none;
+    height: 48px;
+    padding: 10px 10px 0;
+    width: 100%;
+  
+}
+.cta-btn-txt{
+    webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    font: inherit;
+    text-transform: none;
+    cursor: pointer;
+    font-weight: 400;
+    user-select: none;
+    color: #fff;
+    line-height: normal;
+    font-size: 1rem;
+    letter-spacing: 0!important;
+    flex: 1 1 auto;
+    padding: .35rem 0;
+    text-align: center; 
+}

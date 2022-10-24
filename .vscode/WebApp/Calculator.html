@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Calci</title>
+    <script>
+        
+        function add()
+        {
+            var a=parseInt(document.getElementById("value1").value);
+            var b=parseInt(document.getElementById("value2").value);
+            var c=a+b;
+            alert("sum="+c);
+        }
+        function sub()
+        {
+            var a=(document.getElementById("value1").value);
+            var b=(document.getElementById("value2").value);
+            var c=a-b;
+            alert("diffrence="+c);
+        }
+        function mul()
+        {
+            var a=(document.getElementById("value1").value);
+            var b=(document.getElementById("value2").value);
+            var c=a*b;
+            alert("multiplication="+c);
+        }
+        function div()
+        {
+            var a=(document.getElementById("value1").value);
+            var b=(document.getElementById("value2").value);
+            var c=a/b;
+            alert("divisible="/c);
+        }
+    
+    </script>
+
+    <style>
+        #value1{
+            background-color: rgba(242, 87, 87, 0.776);
+            color:white;
+            padding: 5px;
+        
+        }
+        #value2{
+            background-color: rgba(242, 87, 87, 0.776);
+            color: whitesmoke;
+            padding: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div style="margin: 300px;">
+    <h4>Arithematic Operation</h4>
+    <p>Enter 1st number=
+     <input type="text" id="value1"/>
+    </p>
+    <p>Enter 2nd number=
+        <input type="text" id="value2"/>
+    </p>
+    <input type="button" value="+" onclick="add()"/>
+    <input type="button" value="-" onclick="sub()"/>
+    <input type="button" value="*" onclick="mul()"/>
+    <input type="button" value="/" onclick="div()"/>
+    </div>
+</body>
+</html>

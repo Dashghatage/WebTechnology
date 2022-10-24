@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+#Home{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)100%), url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.contactno{
+    color: aliceblue;
+    padding-left: 60px;
+    padding-top: 15px;
+    list-style: none;
+    font-size: 15px;
+    padding-bottom: 18px;
+
+}
+#Frontpage{
+    display: flex; 
+    list-style: none;
+    margin-left: 50px;
+    align-items: center ;
+}
+#navbar{
+    list-style: none; 
+    padding-bottom: 20px;
+    padding-top: 18px;
+    padding-left: 70px;
+    text-decoration: none;
+    background-color: rgba(9, 9, 9, 0.595) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+.restrnt{
+    font-size: 25px;
+    color: aliceblue;
+    list-style: none;
+    padding: 20px;  
+    
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+#BkT{
+    border: 2px chocolate solid;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px;
+}
+#BkT:hover{
+    background-color: rgb(95, 68, 19);
+}
+#headln{
+    list-style: none;
+    padding-left: 90px;
+
+}
+#Bar{
+    border: 3px chocolate solid;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding: 5px;
+    width: 150px; 
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    margin-top: -100px;
+    margin-bottom: 250px;
+    font-size: 18px;
+    transition: 0.6s;
+}
+#Bar:hover{
+    background-color: rgb(95, 68, 19);
+
+}
+#h12{
+    font-size: 55px;
+    margin-top: 100px; 
+    color:aliceblue;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.P{
+    font-size: 20px;
+    color: rgb(239, 239, 239);
+    margin-left: 80px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Header{
+    color: orange;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+#inln{
+    color: rgb(245, 241, 234);
+    font-size: 60px;
+}
+#inp{
+    color: wheat;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+
+}
+#About{
+    padding-left: 50px;
+    margin-top: 2px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv89wp2KoE4Oh8_i3pX6DO-DFGPMsxC9T1xQ&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tagline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    padding-bottom: 150px;
+}
+#d2img{
+    height: 400px;
+    width: 550px;
+    padding: 100px;
+
+}
+#d2img:hover{
+    height: 410px;
+    width: 580px;
+    transition: 1s;
+}
+#Specials{
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+    margin-left: -5px;
+    margin-right: -6px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+#events{
+    background-color: rgb(62, 51, 51);
+    color: aliceblue;
+    margin-top: 0px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#evntanc{
+    font-size: 18px;
+}
+#head3{
+    color: rgb(171, 117, 16);
+    font-size: 40px;
+}
+.Sectn{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+#sect1{
+    background-color: rgb(23, 22, 22);
+    padding: 45px;
+    border-radius: 20px;
+   
+}
+#sect1:hover, #sect2:hover, #sect3:hover {
+    background-color: orange;
+    padding: 85px;
+    Transition : 1s;
+}
+#sect2{
+    background-color: rgb(23, 22, 22);
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 45px;
+}
+#sect3{
+    background-color: rgb(23, 22, 22);
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 45px;
+}
+#list4{
+    padding-right: 50px;
+    list-style: none;
+    display: flex;
+}
+#specialsdiv{
+    background-color: rgb(68, 62, 62); color:aliceblue;
+    padding: 60px;
+
+}
+#Btf{
+    border: cornsilk solid 1px;
+    background-color: black;
+    color: aliceblue;
+    margin: 20px;
+    padding: 12px;
+    padding-right: 180px;
+    
+}
+#msg{
+    border: cornsilk solid 1px;
+    background-color: black;
+    color: aliceblue;
+    margin: 20px;
+    padding-top: 10px;
+    padding-right: 980px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+}
+#BkT7{
+    background-color: #cda45e;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px; 
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#page7{
+    margin-top: 30px; 
+    padding-left: 350px; 
+    margin-right: 600px; 
+    margin-left: 80px;
+}
+
+#page8{
+    padding-bottom: 150px ;
+    background-color : rgb(27, 26, 26);
+    color: aliceblue;
+    padding-left : 10px;
+}
+#Testimonials{
+padding-right: 70px;
+}
+#test{
+    border: 10px solid grey;
+    border-radius: 85px;
+}
+#Gallery{
+    height: 300px;
+    width: 350px;
+    border: gray solid 1px;
+
+}
+#Gallery:hover{
+    height: 320px;
+    width: 370px;
+    transition: 1s;
+}
+
+#Gphotos{
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #cda45e;
+}
+#loc{
+    justify-content: center;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+    </style>
+</head>
+<body>
+
+    <div id="Home"> 
+    <pre><h4 class="contactno">  +1 5589 55488 55        11AM - 23PM                                                                                                         En / De</h4></pre>        
+        <div id="navbar">
+            <ul id="Frontpage">
+                <li><a href="" class="restrnt">RESTAURANTLY </a></li>
+                <li><a href="#Home">Home</li>
+                <li><a href="#About">About</li>
+                <li><a href="#Specials">Specials</li>
+                <li><a href="#events">Events</li>
+                <li><a href="">Chefs</li>
+                <li><a href="">Gallery</li>
+                <li><a href="">Dropdown</li>
+                <li><a href="">Contact</li>
+                <li><a href="" id="BkT" style="padding-right: 15px; padding-left: 15px;">  BOOK A TABLE </a></li> 
+            </ul>
+        </div>
+        <ul id="headln" style="padding-top: 165px;">
+            <li><p id="inln"><b>Welcome to </b><b id="Header">Restaurantly</b></p></li>
+            <li><h2 id="tagline"> Delivering great food for more than 18 years!</h2></li>    
+            <li><pre style="display: flex;"><a href="" id="Bar">Our Menu</a><a href="" id="Bar">BOOK A TABLE</a></li>
+        </ul>
+    </div>
+
+    <div id="About">
+        <table>
+            <tr style="font-size: 19px;">
+                <td>
+                <h1>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ul type="select">
+                <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            </ul>
+                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </td>
+            <td><img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/about.jpg" id="d2img"></td>
+        </tr>
+    </table>
+    </div> 
+
+    <div id="Specials">
+       <h4>WHY US  -------</h4>
+        <h1 id="head3">Why Choose Our Restaurant</h1></p> 
+        <div class="Sectn">
+        <section id="sect1"><h1>01<br>Lorem Ipsum</h1><br><p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p></section>  
+        <section id="sect2"><h1>02<br>Repellat Nihil</h1><br><p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p></section>
+        <section id="sect3"><h1>03<br>Ad ad velit qui</h1><br><p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p></section></div>    
+    </div>
+
+    <div id="events">
+            <h5 style="font-size: 20px ;font-family:'Playfair', serif;">MENU------</h5>
+            <h1 style="font-family:'Playfair', serif; font-size: 40px; color: rgb(201, 154, 67);">Check Our Tasty Menu</h1>
+            <ul style="display:flex; list-style:none; justify-content:center;">
+                <li><a href="" id="evntanc">All</a></li>
+                <li><a href="" id="evntanc">Starters</a></li>
+                <li><a href="" id="evntanc">Salads</a></li>
+                <li><a href="" id="evntanc">Specialty</a></li>
+            </ul>
+            <div id="list4">
+                <section>
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-bisque.jpg" height="65px" width="65px"; style="border-radius: 50%;"> <li> <b> Lobster Bisque----------------$5.95 </b> <br> Lorem, deren, trataro, filede, nerada</li> <br>
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/cake.jpg" height="65px" width="65px"; style="border-radius: 50%;"> <li> <b>Crab Cake     ----------------$7.95 </b> <br> A delicate crab cake served on a toasted roll with lettuce and tartar sauce </li> <br>
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/tuscan-grilled.jpg" height="65px" width="65px"; style="border-radius: 50%;"> <li> <b>Tuscan Grilled----------------$9.95 </b><br> Grilled chicken with provolone, artichoke hearts, and roasted red pesto</li><br>
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/greek-salad.jpg" height="65px" width="65px"; style="border-radius: 50%;"><li> <b>Greek Salad   ----------------$9.95 </b><br> Fresh spinach, crisp romaine, tomatoes, and Greek olives</li><br>
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/lobster-roll.jpg" height="65px" width="65px"; style="border-radius: 50%;"><li> <b>Lobster Roll  ----------------$12.95 </b><br> Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</li><br>
+                </section>            
+                <section style="margin-left: 200px ;">
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/bread-barrel.jpg" height="65px" width="65px"; style="border-radius: 50%;"><li> <b>Bread Barrel     --------------$6.95 </b><br>Lorem, deren, trataro, filede, nerada</li><br>
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/caesar.jpg" height="65px" width="65px"; style="border-radius: 50%;"><li> <b>Caesar Selections--------------$8.95 </b><br>Lorem, deren, trataro, filede, nerada</li><br>
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/mozzarella.jpg" height="65px" width="65px"; style="border-radius: 50%;"><li> <b>Mozzarella Stick --------------$4.95 </b><br>Lorem, deren, trataro, filede, nerada</li><br>
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/menu/spinach-salad.jpg" height="65px" width="65px"; style="border-radius: 50%;"><li> <b>Spinach Salad    --------------$9.95 </b><br>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</li><br>
+                </section>
+            </div>
+    </div>
+    <div id="specialsdiv" style="background-color: black; color:aliceblue">
+        <h4>SPECIALS-----------------</h4>
+        <h1 id="head3" style="padding-bottom: 40px;">Check Our Specials</h1></p>
+            <div id="page5" style="display: flex;">
+                <section style="padding-right: 250px; list-style: none;">
+                    <ul style="list-style: none; font-size: 20px;">
+                        <li>Modi sit est</li> <br>
+                        <li>Unde praesentium sed</li> <br>
+                        <li>Pariatur explicabo vel</li> <br>
+                        <li>Nostrum qui quasi</li> <br>
+                        <li>Iusto ut expedita aut</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3 style="font-size: 30px; padding-bottom:10px;">Architecto ut aperiam autem id</h3>
+                    <i> Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a<br> videna mareta paulona marka</i>
+                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos<br> ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet <br> eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus <br> nostrum rem vero</p>
+                </section>
+                <section style="display: flex;">
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/specials-1.png" height="320px" width="320px" style="border-radius: 50%;">
+                </section>    
+            </div>
+    </div>
+    <div id="specialsdiv">
+        <h4>EVENTS-----------------</h4>
+        <h1 id="head3">Organize Your Events in our Restaurant</h1></p><pre>
+
+
+        </pre>
+            <div id="page5" style="display: flex;">
+                <section>
+                    <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/event-private.jpg" height="425px" width="600px" alt="">
+                </section>
+                <section style="margin-left:15px; font-family: Playfair Display,serif;">
+                   <h4 style="color: orange; font-size: 25px;">Private Parties</h4> 
+                    <h2 style="font-size: 35px; padding-bottom: 30px;"><u>$290</u></h2>
+                   <pre><h5 style="font-family: 'Trebuchet MS'; font-size: 15px;">
+                        <i style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna aliqua.</i>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <br>voluptate velit esse cillum dolore eu fugiat nulla pariatur</p></h5></pre>
+                </section>
+            </div>
+    </div>
+    <div style="background-color: black; color:aliceblue;padding-top: 50px; padding-left: 80px;">
+        <h5>RESERVATION-----------------</h5>
+        <h1 id="head3">Book a Table</h1></p><pre>
+
+
+        </pre>
+            <div id="BAT" style="display: flex;">
+                <form action="" style="padding-left:70px;">
+                    <section style="padding-right:50px; padding-bottom: 50px;">
+                        <input type="text" value="Your name" id="Btf">
+                        <input type="text" value="Your email" id="Btf">
+                        <input type="text" value="Your phone number" id="Btf">
+                    </section>
+                    <section style="padding-right:50px; padding-bottom: 50px;">
+                        <input type="text" value="Date" id="Btf">
+                        <input type="text" value="Time" id="Btf">
+                        <input type="text" value="# of people" id="Btf">
+                    </section>
+                    <section>
+                        <input type="text" value="Message" id="msg" >
+                    </section>
+                    <section id="page7">
+                        <center><p id="BkT7"> BOOK A TABLE </p></center>
+                    </section>
+                </form>
+            </div>
+        <pre>
+
+
+
+        
+        </pre>
+    </div>
+    <div id="Specials" style="padding-bottom: 80px; background-color: rgb(35, 34, 34);">
+        <h4>TESTIMONIALS-------</h4>
+        <h1 id="head3">What they're saying about us</h1></p> 
+        <div class="Sectn">
+            <section id="sect1" style="padding-bottom: 100px;">
+                <p id="Testimonials">Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</p>
+            </section>  
+            <section id="sect2">
+                <p id="Testimonials">Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</p>
+            </section>
+            <section id="sect3">
+                <p id="Testimonials">Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</p>
+            </section>
+        </div>
+        <div style="display: flex; margin-top: -100px;">
+            <section style="margin-left:90px ;">
+                <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/testimonials/testimonials-3.jpg" height="80px" width="80px" id="test">
+                <h3 style="font-family: Playfair Display, serif;">Jena Karlis</h3>
+                <h5>Store owner</h5>
+            </section>
+            <section style="margin-left:340px ;">
+                <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/testimonials/testimonials-4.jpg" height="80px" width="80px" id="test">
+                <h3 style="font-family: Playfair Display, serif;">Matt Brandon</h3>
+                <h5>freelancer</h5>
+            </section>
+            <section style="margin-left:360px ;">
+                <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/testimonials/testimonials-5.jpg" height="80px" width="80px" id="test">
+                <h3 style="font-family: Playfair Display, serif;">Saul Goodman</h3>
+                <h5>CEO & founder</h5>
+            </section>
+        </div>
+    </div>
+    <div style="background-color:rgb(6, 5, 5); padding-left: 50px; padding-top: 50px; color: aliceblue;">
+        <h4>GALLERY-------</h4>
+        <h1 id="Gphotos">Some photos from Our Restaurant</h1></p>
+        <div>
+            <section>
+                <img id=Gallery src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-1.jpg">
+                <img id=Gallery src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-2.jpg">
+                <img id=Gallery src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-3.jpg">
+                <img id=Gallery src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-4.jpg">
+            </section>
+            <section>
+                <img id=Gallery src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-5.jpg">
+                <img id=Gallery src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-6.jpg">
+                <img id=Gallery src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-7.jpg">
+                <img id=Gallery src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/gallery/gallery-8.jpg">
+            </section>
+        </div>
+    </div>
+    <div style="background-color: rgb(6, 5, 5); padding-left: 50px; padding-top: 50px; color: aliceblue;">
+        <h4>CHEFS-------</h4>
+        <h1 id="Gphotos">Our Proffesional Chefs</h1></p><pre>
+
+
+        </pre>
+        <section style="margin-left: 30px;">
+            <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/chefs/chefs-1.jpg" height="400px" width="450px">
+            <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/chefs/chefs-2.jpg" height="400px" width="450px">
+            <img src="https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/chefs/chefs-3.jpg" height="400px" width="450px">
+        </section>
+        <div style="background-color: rgb(6, 5, 5); padding-top: 50px; color: aliceblue;">
+            <h4>CONTACT-------</h4>
+            <h1 id="Gphotos">Contact Us</h1><br>
+        <div style="margin: 0%;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.314615867846!2d-73.99552!3d40.710781!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sbg!4v1662880692609!5m2!1sen!2sbg" width="1400" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><br>
+        <div style="margin-top: 40px; margin-left: 50px; display: flex;">
+            <section style="justify-content: flex-start;">
+                <div><h2>Location: </h2>
+                     <h5 id="loc">A108 Adam Street, New York, NY 535022 </h5>
+                </div> <br>
+                <div> <h2>Open Hours: </h2>
+                    <h5 id="loc"> Monday-Saturday: <br>
+                         11:00 AM - 23:00 PM</h5>
+                </div> <br>
+                <div>
+                    <h2>Email:</h2>
+                    <h5 id="loc"> info@example.com </h5>                   
+                </div> <br>
+                <div>
+                    <h2>Call:</h2>
+                    <h5 id="loc">+1 5589 55488 55s</h5>
+                </div>
+            </section>
+            <section style="padding-left: 200px; border: 2px solid black;">
+                <input type="text" value="Your name" id="Btf">
+                <input type="text" value="Your email" id="Btf"> <br> 
+                <input type="text" value="Your email" id="Btf" style="padding-right: 580px; margin-top: 30px;">
+                <input type="text" value="Message" id="msg" style="padding-right: 580px;" >
+            </section>
+        </div>
+        <pre>
+
+
+
+        </pre>
+    </div>
+</body>
+</html>
